@@ -382,7 +382,7 @@ export const login = catchAsync(
 			);
 		}
 
-		if (!user.emailVerified) {
+		/*if (!user.emailVerified) {
 			// 403 (Forbidden): If the user's email is not verified and they aren't allowed to perform the requested action without a verified email
 			return next(
 				new AppError(
@@ -390,7 +390,7 @@ export const login = catchAsync(
 					HttpStatusCode.FORBIDDEN,
 				),
 			);
-		}
+		}*/
 
 		await createAndSendToken(user, res);
 	},
