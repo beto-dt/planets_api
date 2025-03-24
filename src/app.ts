@@ -63,8 +63,7 @@ const corsOptions: CorsOptions = {
 		const allowedOrigins = [
 			"http://localhost:2000",
 			"http://localhost:3000",
-			"https://mobileacademy.io",
-			"https://wecancode.in",
+			"https://riverpod-api.web.app"
 		];
 
 		/// check if the origin is in the allowedOrigins array
