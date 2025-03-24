@@ -16,8 +16,6 @@ const envFile = path.join(__dirname, `./../.env.${currentEnv}`);
 dotenv.config({ path: envFile });
 
 
-// initialize S3
-AwsS3Helper.getInstance();
 
 const DB: string = process.env.MONGO_DB?.replace(
 	"YJvDrRuzDCLyRYqjvUEfpLZsdenkIKIo",
