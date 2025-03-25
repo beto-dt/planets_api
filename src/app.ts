@@ -63,7 +63,8 @@ const corsOptions: CorsOptions = {
 		const allowedOrigins = [
 			"http://localhost:2000",
 			"http://localhost:3000",
-			"https://riverpod-api.web.app"
+			"https://riverpod-api.web.app",
+			"https://us-central1-a-academia-espacial.cloudfunctions.net/planets/"
 		];
 
 		/// check if the origin is in the allowedOrigins array
